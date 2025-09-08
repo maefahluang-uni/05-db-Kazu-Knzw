@@ -28,7 +28,7 @@ public class UserRepositoryTest {
         repo.save(user1);
 
         // Test
-        User foundUser = repo.findByUsername("user11");
+        User foundUser = repo.FindByUsername("user11");
 
         // Verify
         assertEquals("user11", foundUser.getUsername());
